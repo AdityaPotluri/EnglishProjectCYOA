@@ -4,6 +4,7 @@ import { useState } from 'react';
 import scenarioArray from './scenario';
 import choicesArray from './choices';
 import deathArray from './death';
+import boat from './boat.jpeg';
 function App() {
   const [choiceInd, setChoiceInd] = useState(0);
   let pathInd = 0;
@@ -54,6 +55,7 @@ function App() {
       <img src="https://lh3.googleusercontent.com/proxy/K7A0Vj45UTKuq-xGKJo4HmMfUMmVBadQ3bHIHDwrtubRBDW_O8kEBUKo-0HLTiSqYKFoelDJwLJo1xQRdHZXQOo29zGSMGo" width="300" height="200"></img>
       </div>
       <div style={{"display": isVisible}}>
+        <img  width="200" src={boat}/>
         <div className="scenario">
           <p>
             {
