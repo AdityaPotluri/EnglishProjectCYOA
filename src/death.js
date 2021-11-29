@@ -57,9 +57,10 @@ const deathArray = [
     and past the deserted beaches of Venezuela. The warm water and sun eventually melt the tar that secures 
     the joints of the boat, weakening the rotting planks and loosening them from their rusting nails. The water 
     that leaks through the wood floods the bilge and then rises as high as the oarlocks, closing in around the mummified bodies. 
-    The current pushes you overboard as you slip away from the boat; after a final gurgle, the last seagull hastens away.`
+    The current pushes you overboard as you slip away from the boat; after a final gurgle, the last seagull hastens away.`,
 
-
+    `Unfortunately your inability to leave your home country causes you to fall victim to political violence. Your family falls victim
+    to dwindling medicine, food, and water without your support.`
 ]
 
 export default deathArray;
