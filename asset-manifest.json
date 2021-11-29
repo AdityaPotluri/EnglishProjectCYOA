@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/EnglishProjectCYOA/static/css/main.8487a158.chunk.css",
-    "main.js": "/EnglishProjectCYOA/static/js/main.e02c7e27.chunk.js",
-    "main.js.map": "/EnglishProjectCYOA/static/js/main.e02c7e27.chunk.js.map",
+    "main.css": "/EnglishProjectCYOA/static/css/main.91c3f11b.chunk.css",
+    "main.js": "/EnglishProjectCYOA/static/js/main.82cf16fc.chunk.js",
+    "main.js.map": "/EnglishProjectCYOA/static/js/main.82cf16fc.chunk.js.map",
     "runtime-main.js": "/EnglishProjectCYOA/static/js/runtime-main.4c905b5a.js",
     "runtime-main.js.map": "/EnglishProjectCYOA/static/js/runtime-main.4c905b5a.js.map",
     "static/js/2.da646168.chunk.js": "/EnglishProjectCYOA/static/js/2.da646168.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.74050d98.chunk.js": "/EnglishProjectCYOA/static/js/3.74050d98.chunk.js",
     "static/js/3.74050d98.chunk.js.map": "/EnglishProjectCYOA/static/js/3.74050d98.chunk.js.map",
     "index.html": "/EnglishProjectCYOA/index.html",
-    "static/css/main.8487a158.chunk.css.map": "/EnglishProjectCYOA/static/css/main.8487a158.chunk.css.map",
-    "static/js/2.da646168.chunk.js.LICENSE.txt": "/EnglishProjectCYOA/static/js/2.da646168.chunk.js.LICENSE.txt"
+    "static/css/main.91c3f11b.chunk.css.map": "/EnglishProjectCYOA/static/css/main.91c3f11b.chunk.css.map",
+    "static/js/2.da646168.chunk.js.LICENSE.txt": "/EnglishProjectCYOA/static/js/2.da646168.chunk.js.LICENSE.txt",
+    "static/media/boat.0a10794f.jpeg": "/EnglishProjectCYOA/static/media/boat.0a10794f.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.4c905b5a.js",
     "static/js/2.da646168.chunk.js",
-    "static/css/main.8487a158.chunk.css",
-    "static/js/main.e02c7e27.chunk.js"
+    "static/css/main.91c3f11b.chunk.css",
+    "static/js/main.82cf16fc.chunk.js"
   ]
 }
