@@ -14,19 +14,24 @@ function App() {
   const beDamned = () => {
     
     if(choiceInd >= 2) {
-      console.log("meep")
-      setDeathTxt((deathArray[(choiceInd-2+pathInd)*3]));
+      console.log(choiceInd);
+      console.log(pathInd);
+      console.log((choiceInd-2+pathInd)*3);
+      setDeathTxt((deathArray[(choiceInd-2)*3+pathInd]));
+      if(choiceInd==5 && pathInd==2) {
+        setDeathTxt(deathArray[deathArray.length-2])
+      }
       setVisible("none");
     }
   }
   const onClicked = (txt) => {
-    beDamned();
     for(let i = 0; i<choicesArray[choiceInd].length; i++) {
       if(choicesArray[choiceInd][i] === txt) {
         pathInd = i;
       }
     }
-    if (pathInd === 2) {
+    beDamned();
+    if (pathInd === 2 && choiceInd == 0) {
       setDeathTxt((deathArray[deathArray.length-1]));
       setVisible("none");
     } 
@@ -56,10 +61,10 @@ function App() {
             </p>
           </div>
           <h1> YOU BE DAMNED</h1>
-      <img src="https://wallpapercave.com/wp/wp3970555.jpg" width="300" height="200"></img>
+      <img className="skull" src="https://wallpapercave.com/wp/wp3970555.jpg" width="300" height="200"></img>
       </div>
       <div style={{"display": isVisible}}>
-        <img width="200" src={boat}/>
+        <img className="meep" width="200" src={boat}/>
         <div className="scenario">
           <p>
             {
